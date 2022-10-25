@@ -8,11 +8,7 @@ type response = {
 };
 
 const Lunch = () => {
-  const [data, setData] = useState<response>({
-    nation: "",
-    food: "",
-    majorClass: "",
-  });
+  const [data, setData] = useState<response>();
   const getMenuListCall = async () => {
     const result = await getMenuList();
     setData(result);
