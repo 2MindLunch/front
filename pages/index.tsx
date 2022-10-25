@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Lunch from "../src/components/lunch";
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <h1>2MindLunch</h1>
+        <Lunch />
       </main>
       <footer>
         <a
